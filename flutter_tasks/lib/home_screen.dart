@@ -1,15 +1,28 @@
 import 'package:flutter/material.dart';
-import 'counter_widget.dart';
+import 'row_widget.dart';
+import 'column_widget.dart';
 
-class PressedButton extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Press Button'),
+        title: Text('Flutter Screen'),
       ),
       body: Center(
-        child: CounterWidget(), 
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Flutter!',
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            CustomRowWidget(),
+            SizedBox(height: 20), 
+            CustomColumnWidget(),
+          ],
+        ),
       ),
     );
   }

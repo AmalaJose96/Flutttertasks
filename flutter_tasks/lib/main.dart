@@ -9,9 +9,11 @@ class flutter_tasks extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Basic Flutter App',
-      theme: ThemeData(primarySwatch: Colors.red),
-      home: PressedButton(), 
+      title: 'Flutter Scaffold, Text, Row, Column, Icon',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeScreen(),
     );
   }
 }
