@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CustomRowWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Icon(Icons.star, color: Colors.red, size: 50.0),

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CustomColumnWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
