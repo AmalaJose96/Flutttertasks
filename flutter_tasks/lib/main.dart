@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks/home_screen.dart';
 
-import 'google_search.dart';
+import 'flutterr_day3.dart';
+
 
 void main() {
   // ignore: prefer_const_constructors
@@ -20,7 +20,7 @@ class flutter_tasks extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
      
-      home: const GoogleScreen(),
+      home:  const Fluttertask(),
      
     );
   }

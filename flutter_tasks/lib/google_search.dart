@@ -6,7 +6,7 @@ class GoogleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF8ECEA), 
+      backgroundColor: const Color(0xFFF8ECEA), 
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -28,7 +28,7 @@ class GoogleScreen extends StatelessWidget {
               Container(
                 height: 50,
                 decoration: BoxDecoration(
-                  color: Color(0xFFE6DAD5), 
+                  color: const Color(0xFFE6DAD5), 
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: const Row(
