@@ -18,7 +18,7 @@ class flutter_tasks extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Scaffold, Text, Row, Column, Icon',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
      
       home:   Auth(),
